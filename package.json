@@ -1,9 +1,9 @@
 {
-  "name": "helioslauncher",
-  "version": "2.2.1",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "name": "voxelaralauncher",
+  "version": "1.0.0",
+  "productName": "Voxelara Launcher",
+  "description": "Лаунчер сервера Voxelara",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/) + Alexey Zharkov (https://github.com/LEPFORY/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/dscalzi/HeliosLauncher",
   "bugs": {
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/LEPFORY/VoxelaraLauncher.git"
   }
 }

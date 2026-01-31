@@ -1,26 +1,26 @@
 [ejs.landing]
 updateAvailableTooltip = "Update Available"
-usernamePlaceholder = "Username"
-usernameEditButton = "Edit"
-settingsTooltip = "Settings"
-serverStatus = "SERVER"
-serverStatusPlaceholder = "OFFLINE"
-mojangStatus = "MOJANG STATUS"
-mojangStatusTooltipTitle = "Services"
+usernamePlaceholder = "Никнейм"
+usernameEditButton = "Ред."
+settingsTooltip = "Настройки"
+serverStatus = "СЕРВЕР"
+serverStatusPlaceholder = "ОФФЛАЙН"
+mojangStatus = "СТАТУС MOJANG"
+mojangStatusTooltipTitle = "Сервисы"
 mojangStatusNETitle = "Non&nbsp;Essential"
-newsButton = "NEWS"
-launchButton = "PLAY"
+newsButton = "НОВОСТИ"
+launchButton = "ИГРАТЬ"
 launchButtonPlaceholder = "&#8226; No Server Selected"
-launchDetails = "Please wait.."
+launchDetails = "Подождите.."
 newsNavigationStatus = "{currentPage} of {totalPages}"
 newsErrorLoadSpan = "Checking for News.."
 newsErrorFailedSpan = "Failed to Load News"
-newsErrorRetryButton = "Try Again"
+newsErrorRetryButton = "Попробовать снова"
 newsErrorNoneSpan = "No News"
 
 [ejs.login]
 loginCancelText = "Cancel"
-loginSubheader = "MINECRAFT LOGIN"
+loginSubheader = "MINECRAFT авторизация"
 loginEmailError = "* Invalid Value"
 loginEmailPlaceholder = "EMAIL OR USERNAME"
 loginPasswordError = "* Required"
@@ -35,16 +35,16 @@ loginPasswordDisclaimer1 = "Your password is sent directly to mojang and never s
 loginPasswordDisclaimer2 = "{appName} is not affiliated with Mojang AB."
 
 [ejs.loginOptions]
-loginOptionsTitle = "Login Options"
-loginWithMicrosoft = "Login with Microsoft"
-loginWithMojang = "Login with Mojang"
-cancelButton = "Cancel"
+loginOptionsTitle = "Авторизация"
+loginWithMicrosoft = "с помощью Microsoft"
+loginWithMojang = "с помощью Mojang"
+cancelButton = "Отмена"
 
 [ejs.overlay]
-serverSelectHeader = "Available Servers"
+serverSelectHeader = "Доступные сервера"
 serverSelectConfirm = "Select"
 serverSelectCancel = "Cancel"
-accountSelectHeader = "Select an Account"
+accountSelectHeader = "Выбрать аккаунт"
 accountSelectConfirm = "Select"
 accountSelectCancel = "Cancel"
 
@@ -105,33 +105,33 @@ dataDirectoryTitle = "Data Directory"
 selectDataDirectory = "Select Data Directory"
 chooseFolder = "Choose Folder"
 dataDirectoryDesc = "All game files and local Java installations will be stored in the data directory.<br>Screenshots and world saves are stored in the instance folder for the corresponding server configuration."
-aboutTabHeaderText = "About"
+aboutTabHeaderText = "О"
 aboutTabHeaderDesc = "View information and release notes for the current version."
 aboutTitle = "{appName}"
-stableRelease = "Stable Release"
-versionText = "Version "
+stableRelease = "Стабильный релиз"
+versionText = "Версия "
 sourceGithub = "Source (GitHub)"
-support = "Support"
+support = "Поддержка"
 devToolsConsole = "DevTools Console"
-releaseNotes = "Release Notes"
+releaseNotes = "Примечания к выпуску"
 changelog = "Changelog"
 noReleaseNotes = "No Release Notes"
 viewReleaseNotes = "View Release Notes on GitHub"
 launcherUpdatesHeaderText = "Launcher Updates"
 launcherUpdatesHeaderDesc = "Download, install, and review updates for the launcher."
-checkForUpdates = "Check for Updates"
-whatsNew = "What's New"
+checkForUpdates = "В поисках обновлений"
+whatsNew = "Что нового?"
 updateReleaseNotes = "Update Release Notes"
 
 [ejs.waiting]
-waitingText = "Waiting for Microsoft.."
+waitingText = "В ожидании отклика Microsoft.."
 
 [ejs.welcome]
 continueButton = "CONTINUE"
 
 
 [js.discord]
-waiting = "Waiting for Client.."
+waiting = "В ожидании клиента.."
 state = "Server: {shortId}"
 
 [js.index]
@@ -142,7 +142,7 @@ microsoftLogoutTitle = "Microsoft Logout"
 login = "LOGIN"
 loggingIn = "LOGGING IN"
 success = "SUCCESS"
-tryAgain = "Try Again"
+tryAgain = "Попробовать снова"
 
 [js.login.error]
 invalidValue = "* Invalid Value"
@@ -159,14 +159,14 @@ failureText = "See console (CTRL + Shift + i) for more details."
 okay = "Okay"
 
 [js.landing.selectedAccount]
-noAccountSelected = "No Account Selected"
+noAccountSelected = "Аккаунт не выбран"
 
 [js.landing.selectedServer]
 noSelection = "No Server Selected"
-loading = "Loading.."
+loading = "Загрузка.."
 
 [js.landing.serverStatus]
-server = "SERVER"
+server = "СЕРВЕР"
 offline = "OFFLINE"
 players = "PLAYERS"
 
@@ -204,7 +204,7 @@ errorDuringFileDownloadTitle = "Error During File Download"
 preparingToLaunch = "Preparing to launch.."
 launchingGame = "Launching game.."
 launchWrapperNotDownloaded = "The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href=\"https://github.com/dscalzi/HeliosLauncher/issues\">submit an issue</a> and let us know what antivirus software you use. We'll contact them and try to straighten things out."
-doneEnjoyServer = "Done. Enjoy the server!"
+doneEnjoyServer = "Готово. Приятной игры!"
 checkConsoleForDetails = "Please check the console (CTRL + Shift + i) for more details."
 
 [js.landing.news]
@@ -240,21 +240,21 @@ selectedButton = "Selected Account &#10004;"
 lastAccountWarningTitle = "Warning<br>This is Your Last Account"
 lastAccountWarningMessage = "In order to use the launcher you must be logged into at least one account. You will need to login again after.<br><br>Are you sure you want to log out?"
 confirmButton = "I'm Sure"
-cancelButton = "Cancel"
+cancelButton = "Отменить"
 
 [js.settings.authAccountPopulate]
 username = "Username"
 uuid = "UUID"
-selectAccount = "Select Account"
-selectedAccount = "Selected Account ✓"
-logout = "Log Out"
+selectAccount = "Выбрать аккаунт"
+selectedAccount = "Выбранный аккаунт ✓"
+logout = "Выйти"
 
 [js.settings.dropinMods]
-removeButton = "Remove"
+removeButton = "Удалить"
 deleteFailedTitle = "Failed to Delete<br>Drop-in Mod {fullName}"
 deleteFailedMessage = "Make sure the file is not in use and try again."
 failedToggleTitle = "Failed to Toggle<br>One or More Drop-in Mods"
-okButton = "Okay"
+okButton = "Окей"
 
 [js.settings.serverListing]
 mainServer = "Main Server"
@@ -266,8 +266,8 @@ requiresJava = "Requires Java {major} x64."
 availableOptions = "Available Options for Java {major} (HotSpot VM)"
 
 [js.settings.about]
-preReleaseTitle = "Pre-release"
-stableReleaseTitle = "Stable Release"
+preReleaseTitle = "Пре-релиз"
+stableReleaseTitle = "Стабильный релиз"
 releaseNotesFailed = "Failed to load release notes."
 
 [js.settings.updates]
@@ -302,8 +302,8 @@ installNowButton = "Install Now"
 checkForUpdatesButton = "Check for Updates"
 
 [js.auth.microsoft.error]
-noProfileTitle = "Error During Login:<br>Profile Not Set Up"
-noProfileDesc = "Your Microsoft account does not yet have a Minecraft profile set up. If you have recently purchased the game or redeemed it through Xbox Game Pass, you have to set up your profile on <a href=\"https://minecraft.net/\">Minecraft.net</a>.<br><br>If you have not yet purchased the game, you can also do that on <a href=\"https://minecraft.net/\">Minecraft.net</a>."
+noProfileTitle = "Ошибка при входе в систему:<br>Профиль не настроен"
+noProfileDesc = "Если вы недавно купили игру или активировали её через Xbox Game Pass, сначала настройте профиль на официальном сайте. <a href=\"https://minecraft.net/\">Minecraft.net</a>.<br><br>Ещё не купили игру? Вы можете приобрести её по ссылке: <a href=\"https://minecraft.net/\">Minecraft.net</a>."
 noXboxAccountTitle = "Error During Login:<br>No Xbox Account"
 noXboxAccountDesc = "Your Microsoft account has no Xbox account associated with it."
 xblBannedTitle = "Error During Login:<br>Xbox Live Unavailable"
